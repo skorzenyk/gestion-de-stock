@@ -43,6 +43,8 @@ Ce projet de gestion de stock en langage C est une application simple permettant
 **gcc -o gestion_stock stock.c menu.c main.c**
 3. Exécuter le programme
 **./gestion_stock**
+ou
+**gestion_stock**
 
 ##Conclusion
 
