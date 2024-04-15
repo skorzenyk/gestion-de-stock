@@ -73,7 +73,8 @@ void supprimerProduit(Produit stock[], int *nbProduits) {
     int i;
     for (i = 0; i < *nbProduits; i++) {
         if (stock[i].code == codeSuppression) {
-            for (int j = i; j < *nbProduits - 1; j++) {
+            int j;
+            for (j = i; j < *nbProduits - 1; j++) {
                 stock[j] = stock[j + 1];
             }
             (*nbProduits)--;
